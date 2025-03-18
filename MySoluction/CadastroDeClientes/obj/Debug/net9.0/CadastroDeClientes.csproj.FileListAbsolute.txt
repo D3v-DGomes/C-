@@ -1,0 +1,14 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\bin\Debug\net9.0\CadastroDeClientes.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\bin\Debug\net9.0\CadastroDeClientes.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\bin\Debug\net9.0\CadastroDeClientes.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\bin\Debug\net9.0\CadastroDeClientes.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\bin\Debug\net9.0\CadastroDeClientes.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\refint\CadastroDeClientes.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\CadastroDeClientes.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\CadastroDeClientes\obj\Debug\net9.0\ref\CadastroDeClientes.dll

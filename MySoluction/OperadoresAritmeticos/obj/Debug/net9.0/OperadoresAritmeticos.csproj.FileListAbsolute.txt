@@ -1,0 +1,14 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\bin\Debug\net9.0\OperadoresAritmeticos.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\bin\Debug\net9.0\OperadoresAritmeticos.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\bin\Debug\net9.0\OperadoresAritmeticos.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\bin\Debug\net9.0\OperadoresAritmeticos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\bin\Debug\net9.0\OperadoresAritmeticos.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\refint\OperadoresAritmeticos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\OperadoresAritmeticos.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresAritmeticos\obj\Debug\net9.0\ref\OperadoresAritmeticos.dll

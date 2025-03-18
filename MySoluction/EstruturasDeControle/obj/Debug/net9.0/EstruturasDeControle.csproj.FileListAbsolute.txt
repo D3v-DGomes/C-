@@ -1,0 +1,14 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\bin\Debug\net9.0\EstruturasDeControle.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\bin\Debug\net9.0\EstruturasDeControle.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\bin\Debug\net9.0\EstruturasDeControle.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\bin\Debug\net9.0\EstruturasDeControle.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\bin\Debug\net9.0\EstruturasDeControle.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\refint\EstruturasDeControle.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\EstruturasDeControle.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EstruturasDeControle\obj\Debug\net9.0\ref\EstruturasDeControle.dll
