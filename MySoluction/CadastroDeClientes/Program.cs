@@ -1,6 +1,4 @@
-﻿
-// Seleção de evento:
-using System.Reflection.Metadata;
+﻿using System.Reflection.Metadata;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +15,7 @@ class Program {
     
     static void Main() 
     {
+        // Seleção de evento:
         Console.Clear();
         while (true)
         {
