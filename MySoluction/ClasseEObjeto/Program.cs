@@ -113,20 +113,116 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 // }
 
 // CHAMANDO UM CONSTRUTOR DENTRO DE OUTRO
-Person person = new("João", 32, "masculino");
-Console.WriteLine(person.Name);
-Console.WriteLine(person.Age);
-Console.WriteLine(person.Sex);
+// Person person = new("João", 32, "masculino");
+// Console.WriteLine(person.Name);
+// Console.WriteLine(person.Age);
+// Console.WriteLine(person.Sex);
 
-public class Person {
-    public Person(string name) => Name = name;
+// public class Person {
+//     public Person(string name) => Name = name;
 
-    public Person(string name, int age, string sex):this(name) {
-        Age = age;
-        Sex = sex;
+//     public Person(string name, int age, string sex):this(name) {
+//         Age = age;
+//         Sex = sex;
+//     }
+
+//     public string? Name;
+//     public int Age;
+//     public string Sex;
+// }
+
+// Uso do THIS
+
+// 1- Diferenciando parâmetros dos métodos dos campos:
+// using System.Security.Cryptography.X509Certificates;
+
+// public class Cliente {
+//     public string? Nome;
+//     public int Idade;
+
+//     public Cliente(string? Nome, int Idade) {
+//         this.Nome = Nome;
+//         this.Idade = Idade;
+//     }
+// }
+
+// 2- Passar um objeto da instância atual como parâmetro para outros métodos:
+// Teste t1 = new Teste();
+// t1.Num1 = 10;
+// t1.Num2 = 22;
+// t1.Exibir();
+
+// Teste t2 = new();
+// t2.Num1 = 33;
+// t2.Num2 = 88;
+// t2.Exibir();
+
+
+// public class Teste {
+//     public int Num1;
+//     public int Num2;
+
+//     public void PassarParametros(Teste t) {
+//         Console.WriteLine($"this = {this}");
+//         Console.WriteLine("Num1: " + t.Num1);
+//         Console.WriteLine("Num2: " + t.Num2);
+//     }
+
+//     public void Exibir() {
+//         // passando this como um parâmetro (a classe Teste)
+//         PassarParametros(this);
+//     }
+// }
+
+// 3- Invocar outro construtor da mesma classe:
+// Teste t1 = new(999);
+// public class Teste {
+//     public Teste(int num1, int num2) {
+//         Console.WriteLine($"\nConstrutor com dois parâmetros {num1} e {num2}");
+//     }
+
+//     public Teste(int num) : this(777, 888) {
+//         Console.WriteLine("\nConstrutor com um parâmetro " + num);
+//     }
+// }
+
+
+public enum Cores {
+    Branco = 1,
+    Vermelho,
+    Preto,
+    Cinza,
+    Prata, 
+    Azul
+}
+
+public class Carro {
+    public int Cor;
+
+    public Carro(string? Modelo, string? Montadora, string? Marca, int Ano, int Potencia) {
+        this.Modelo = Modelo;
+        this.Montadora = Montadora;
+        this.Marca = Marca;
+        this.Ano = Ano;
+        this.Potencia = Potencia;
+        Cor = cor;
     }
 
-    public string? Name;
-    public int Age;
-    public string Sex;
+    public void ExibirInfo(string? Modelo, string? Montadora, string? Marca, int Potencia, int Cor = 1, int Ano = 2022) {
+        Console.WriteLine(Modelo);
+        Console.WriteLine(Montadora);
+        Console.WriteLine(Marca);
+        Console.WriteLine(Potencia);
+        Console.WriteLine(Ano);
+        Console.WriteLine((Cores)Cor);
+    }
 }
+
+Console.WriteLine($"{Cores.Branco} - {(int)Cores.Branco}");
+Console.WriteLine(Montadora);
+Console.WriteLine(Marca);
+Console.WriteLine(Potencia);
+Console.WriteLine(Ano);
+Console.WriteLine((Cores)Cor);
+
+namespace Exercicio1;
