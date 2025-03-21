@@ -52,33 +52,32 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 
 
 
+var aluno = new Aluno();
 
+Console.WriteLine("Nome : ");
+aluno.Nome = Console.ReadLine();
+Console.WriteLine("Idade : ");
+aluno.Idade = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Sexo : ");
+aluno.Sexo = Console.ReadLine();
+Console.WriteLine("Aprovado (S)im : (N)ão");
+aluno.Aprovado = Console.ReadLine();
 
+Curso curso = new();
+curso.Resultado(aluno);
 
 public class Aluno {
     public string? Nome;
     public int Idade;
     public string? Sexo;
     public string? Aprovado;
-
-    public void Consultar() {
-        var aluno = new Aluno();
-
-        Console.WriteLine("Nome : ");
-        aluno.Nome = Console.ReadLine();
-        Console.WriteLine("Idade : ");
-        aluno.Idade = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine($"Sexo : ");
-        aluno.Sexo = Console.ReadLine();
-        Console.WriteLine("Aprovado (S)im : (N)ão");
-        aluno.Nome = Console.ReadLine();
-    }
 }
 
+
 public class Curso {
-    public void Resultado(string nome, int idade, string sexo, string aprovado){
-        Console.WriteLine($"\nO aluno {nome}, sexo {sexo} com {idade} anos.");
-        if(aprovado == "S") {
+    public void Resultado(Aluno aluno){
+        Console.WriteLine($"\nO aluno {aluno.Nome}, sexo {aluno.Sexo} com {aluno.Idade} anos.");
+        if(aluno.Aprovado == "S") {
             Console.WriteLine("\nFoi Aprovado.");
         } else {
             Console.WriteLine($"\n foi Reprovado.");

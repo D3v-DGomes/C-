@@ -5,8 +5,8 @@ using System.Linq;
 
 class User  // Cadastro de clientes
 {
-    public string Name { get; set; }
-    public string Email { get; set; }
+    public string? Name { get; set; }
+    public string? Email { get; set; }
     public int Age { get; set; }
 }
 
@@ -33,7 +33,7 @@ class Program {
             string option = Console.ReadLine();
             
 
-            switch (option) {    // Estrutura de controle baseada na opção escolhida no menu princial
+            switch (option) {    // Estrutura de controle baseada na opção escolhida no menu principal
                 case "1":
                     Console.Clear();
                     NewRegistration();
