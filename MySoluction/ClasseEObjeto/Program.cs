@@ -187,42 +187,8 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 // }
 
 
-public enum Cores {
-    Branco = 1,
-    Vermelho,
-    Preto,
-    Cinza,
-    Prata, 
-    Azul
-}
 
-public class Carro {
-    public int Cor;
 
-    public Carro(string? Modelo, string? Montadora, string? Marca, int Ano, int Potencia) {
-        this.Modelo = Modelo;
-        this.Montadora = Montadora;
-        this.Marca = Marca;
-        this.Ano = Ano;
-        this.Potencia = Potencia;
-        Cor = cor;
-    }
 
-    public void ExibirInfo(string? Modelo, string? Montadora, string? Marca, int Potencia, int Cor = 1, int Ano = 2022) {
-        Console.WriteLine(Modelo);
-        Console.WriteLine(Montadora);
-        Console.WriteLine(Marca);
-        Console.WriteLine(Potencia);
-        Console.WriteLine(Ano);
-        Console.WriteLine((Cores)Cor);
-    }
-}
 
-Console.WriteLine($"{Cores.Branco} - {(int)Cores.Branco}");
-Console.WriteLine(Montadora);
-Console.WriteLine(Marca);
-Console.WriteLine(Potencia);
-Console.WriteLine(Ano);
-Console.WriteLine((Cores)Cor);
 
-namespace Exercicio1;

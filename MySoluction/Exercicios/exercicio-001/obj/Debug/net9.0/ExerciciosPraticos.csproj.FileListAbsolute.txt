@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\bin\Debug\net9.0\ExerciciosPraticos.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\bin\Debug\net9.0\ExerciciosPraticos.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\bin\Debug\net9.0\ExerciciosPraticos.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\bin\Debug\net9.0\ExerciciosPraticos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\bin\Debug\net9.0\ExerciciosPraticos.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\refint\ExerciciosPraticos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ExerciciosPraticos.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ExerciciosPraticos\obj\Debug\net9.0\ref\ExerciciosPraticos.dll
