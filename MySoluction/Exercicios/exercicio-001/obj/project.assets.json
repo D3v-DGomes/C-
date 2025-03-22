@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devgo\\OneDrive\\Documentos\\GitHub\\C-\\MySoluction\\ExerciciosPraticos\\ExerciciosPraticos.csproj",
-      "projectName": "ExerciciosPraticos",
-      "projectPath": "C:\\Users\\devgo\\OneDrive\\Documentos\\GitHub\\C-\\MySoluction\\ExerciciosPraticos\\ExerciciosPraticos.csproj",
+      "projectUniqueName": "C:\\Users\\devgo\\OneDrive\\Documentos\\GitHub\\C-\\MySoluction\\Exercicios\\exercicio-001\\exercicio-001.csproj",
+      "projectName": "exercicio-001",
+      "projectPath": "C:\\Users\\devgo\\OneDrive\\Documentos\\GitHub\\C-\\MySoluction\\Exercicios\\exercicio-001\\exercicio-001.csproj",
       "packagesPath": "C:\\Users\\devgo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devgo\\OneDrive\\Documentos\\GitHub\\C-\\MySoluction\\ExerciciosPraticos\\obj\\",
+      "outputPath": "C:\\Users\\devgo\\OneDrive\\Documentos\\GitHub\\C-\\MySoluction\\Exercicios\\exercicio-001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\devgo\\AppData\\Roaming\\NuGet\\NuGet.Config"

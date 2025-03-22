@@ -12,3 +12,4 @@ C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EntradaDeDados\obj\Debu
 C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EntradaDeDados\obj\Debug\net9.0\EntradaDeDados.pdb
 C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EntradaDeDados\obj\Debug\net9.0\EntradaDeDados.genruntimeconfig.cache
 C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EntradaDeDados\obj\Debug\net9.0\ref\EntradaDeDados.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\EntradaDeDados\obj\Debug\net9.0\EntradaDeDados.sourcelink.json

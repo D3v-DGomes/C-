@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\bin\Debug\net9.0\CadastroDeClientes1.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\bin\Debug\net9.0\CadastroDeClientes1.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\bin\Debug\net9.0\CadastroDeClientes1.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\bin\Debug\net9.0\CadastroDeClientes1.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\bin\Debug\net9.0\CadastroDeClientes1.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\refint\CadastroDeClientes1.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\CadastroDeClientes1.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\CadastroDeClientes1\obj\Debug\net9.0\ref\CadastroDeClientes1.dll
