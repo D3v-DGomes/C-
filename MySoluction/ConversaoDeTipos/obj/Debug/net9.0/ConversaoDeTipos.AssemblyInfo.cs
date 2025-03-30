@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConversaoDeTipos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96eb741bf5d98917d5a3b4b0e992e85b33e75f6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a90cbd19085db48fcad8d9c3753b4e06d3d85efb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConversaoDeTipos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConversaoDeTipos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
