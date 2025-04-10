@@ -127,7 +127,8 @@ int[] studentScores = new int[10];
 string currentStudentLetterGrade = "";
 
 // Write the Report Header to the console:
-Console.WriteLine("Student\t\tGrade\n");
+Console.Clear();
+Console.WriteLine("Student\t\tExam Grade\tOverall Grade\tExtra Credit\n");
 
 foreach(string name in studentNames) {
     string currentStudent = name;
@@ -163,28 +164,33 @@ foreach(string name in studentNames) {
     else   
         continue;
 
-    // Initialize/reset the sum of scored assignments:
-    int sumAssignmentScores = 0;
-
-    // Initialize/reset the calculated average of exam + extra credit scores:
-    decimal currentStudentGrade = 0;
-
-    // Initialize/reset a counter for the number of assignment:
     int gradedAssignments = 0;
+    int gradedExtraCreditAssignments = 0;
+
+    int sumExamScores = 0;
+    int sumExtraCreditScores = 0;
+
+    decimal currentStudentGrade = 0;
+    decimal currentStudentExamScore = 0;
+    decimal currentStudentExtraCreditScore = 0;
 
     foreach(int score in studentScores) {
-        // Increment  the assignment counter:
         gradedAssignments += 1;
 
-        if (gradedAssignments <= examAssignments)
-            // Add the exam score to the sum:
-            sumAssignmentScores += score;
-        else
-            // Add the extra credit points to the sum - bonus points equal to 10% of an exam socre:
-            sumAssignmentScores += score / 10;
+        if (gradedAssignments <= examAssignments){
+            sumExamScores = sumExamScores + score;
+        }
+
+        else {
+            gradedExtraCreditAssignments += 1;
+            sumExtraCreditScores += score;
+        }
     }
 
-    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
+    currentStudentExamScore = (decimal)(sumExamScores) / examAssignments;
+    currentStudentExtraCreditScore = (decimal)(sumExtraCreditScores) / gradedExtraCreditAssignments;
+
+    currentStudentGrade = (decimal)((decimal)sumExamScores + ((decimal)sumExtraCreditScores / 10)) / examAssignments;
 
     if (currentStudentGrade >= 97)
         currentStudentLetterGrade = "A+";
@@ -225,11 +231,11 @@ foreach(string name in studentNames) {
     else
         currentStudentLetterGrade = "F";
     
-    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentExamScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t{currentStudentExtraCreditScore} ({(((decimal)sumExtraCreditScores / 10) / examAssignments)} pts)");
 }
 
 // Required for running in VS Code (keeps the Output windows open to view results):
-Console.WriteLine("Press the Enter key to continue");
+Console.WriteLine("\n\rPress the Enter key to continue");
 Console.ReadLine();
 
 

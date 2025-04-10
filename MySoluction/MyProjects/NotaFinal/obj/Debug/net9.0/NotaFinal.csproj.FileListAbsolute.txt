@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\bin\Debug\net9.0\NotaFinal.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\bin\Debug\net9.0\NotaFinal.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\bin\Debug\net9.0\NotaFinal.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\bin\Debug\net9.0\NotaFinal.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\bin\Debug\net9.0\NotaFinal.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\refint\NotaFinal.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\NotaFinal.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\NotaFinal\obj\Debug\net9.0\ref\NotaFinal.dll
