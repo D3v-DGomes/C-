@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OperadoresDeIncremento")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b45887c9193e01b6622bcf99218decdfbf55d13b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53634c5885f9eaeed67d062f75374762b6acf8ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("OperadoresDeIncremento")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OperadoresDeIncremento")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
