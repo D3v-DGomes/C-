@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\bin\Debug\net9.0\Metodos.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\bin\Debug\net9.0\Metodos.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\bin\Debug\net9.0\Metodos.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\bin\Debug\net9.0\Metodos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\bin\Debug\net9.0\Metodos.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\refint\Metodos.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\Metodos.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Metodos\obj\Debug\net9.0\ref\Metodos.dll

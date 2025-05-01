@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\bin\Debug\net9.0\aula007.1.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\bin\Debug\net9.0\aula007.1.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\bin\Debug\net9.0\aula007.1.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\bin\Debug\net9.0\aula007.1.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\bin\Debug\net9.0\aula007.1.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\refint\aula007.1.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\aula007.1.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\aula007.1\obj\Debug\net9.0\ref\aula007.1.dll

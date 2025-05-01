@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\bin\Debug\net9.0\JogoDaForca.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\bin\Debug\net9.0\JogoDaForca.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\bin\Debug\net9.0\JogoDaForca.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\bin\Debug\net9.0\JogoDaForca.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\bin\Debug\net9.0\JogoDaForca.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\refint\JogoDaForca.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\JogoDaForca.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MyProjects\JogoDaForca\obj\Debug\net9.0\ref\JogoDaForca.dll

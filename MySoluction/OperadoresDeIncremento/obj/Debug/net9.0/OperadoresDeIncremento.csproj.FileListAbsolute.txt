@@ -1,0 +1,14 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\bin\Debug\net9.0\OperadoresDeIncremento.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\bin\Debug\net9.0\OperadoresDeIncremento.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\bin\Debug\net9.0\OperadoresDeIncremento.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\bin\Debug\net9.0\OperadoresDeIncremento.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\bin\Debug\net9.0\OperadoresDeIncremento.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\refint\OperadoresDeIncremento.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\OperadoresDeIncremento.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\OperadoresDeIncremento\obj\Debug\net9.0\ref\OperadoresDeIncremento.dll

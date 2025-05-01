@@ -1,0 +1,14 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\bin\Debug\net9.0\Constantes.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\bin\Debug\net9.0\Constantes.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\bin\Debug\net9.0\Constantes.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\bin\Debug\net9.0\Constantes.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\bin\Debug\net9.0\Constantes.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\refint\Constantes.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\Constantes.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\Constantes\obj\Debug\net9.0\ref\Constantes.dll

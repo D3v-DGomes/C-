@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\bin\Debug\net9.0\ClasseEObjeto.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\bin\Debug\net9.0\ClasseEObjeto.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\bin\Debug\net9.0\ClasseEObjeto.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\bin\Debug\net9.0\ClasseEObjeto.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\bin\Debug\net9.0\ClasseEObjeto.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\refint\ClasseEObjeto.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ref\ClasseEObjeto.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\ClasseEObjeto\obj\Debug\net9.0\ClasseEObjeto.sourcelink.json

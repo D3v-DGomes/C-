@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\bin\Debug\net9.0\project_contosopets.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\bin\Debug\net9.0\project_contosopets.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\bin\Debug\net9.0\project_contosopets.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\bin\Debug\net9.0\project_contosopets.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\bin\Debug\net9.0\project_contosopets.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\refint\project_contosopets.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\project_contosopets.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C-\MySoluction\MicrosoftLearn\project_contosopets\obj\Debug\net9.0\ref\project_contosopets.dll
