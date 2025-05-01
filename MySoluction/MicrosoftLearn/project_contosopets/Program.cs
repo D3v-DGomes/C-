@@ -314,5 +314,3 @@ do
 
 } while (menuSelection != "sair");
 
-
-// TESTE
