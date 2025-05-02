@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\bin\Debug\net9.0\conversor_de_moedas.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\bin\Debug\net9.0\conversor_de_moedas.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\bin\Debug\net9.0\conversor_de_moedas.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\bin\Debug\net9.0\conversor_de_moedas.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\bin\Debug\net9.0\conversor_de_moedas.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\refint\conversor_de_moedas.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\conversor_de_moedas.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MyProjects\conversor_de_moedas\obj\Debug\net9.0\ref\conversor_de_moedas.dll
