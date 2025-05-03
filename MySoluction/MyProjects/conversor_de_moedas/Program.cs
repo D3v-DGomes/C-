@@ -27,7 +27,7 @@ do
     Console.WriteLine("Real - BRL");
     Console.WriteLine("Dólar - USD");
     Console.WriteLine("Euro - EUR");
-    Console.Write("Digite umas das opções (BRL, USD ou EUR): ");
+    Console.Write("Digite umas das opções (BRL, USD ou EUR) ou 'SAIR' para encerrar o programa: ");
     string? menuOptionOrigin = Console.ReadLine().Trim().ToUpper();
 
     if (menuOptionOrigin == "BRL" || menuOptionOrigin == "USD" || menuOptionOrigin == "EUR")
@@ -36,23 +36,37 @@ do
         Console.WriteLine("Pressione a tecla ENTER para continuar.");
         Console.ReadLine();
     }
+    else if (menuOptionOrigin == "SAIR")
+    {
+        Console.WriteLine("Encerrando o programa...");
+        Console.WriteLine("Programa encerrado. \n");        
+        break;
+    }
     else
     {
         Console.WriteLine("Opção de moeda inválida. Por favor, digite BRL, USD ou EUR.");
     }
 
+
+
     Console.WriteLine("Informe a moeda de destino de acordo com as opções abaixo:");
     Console.WriteLine("Real - BRL");
     Console.WriteLine("Dólar - USD");
     Console.WriteLine("Euro - EUR");
-    Console.Write("Digite umas das opções (BRL, USD ou EUR): ");
+    Console.Write("Digite umas das opções (BRL, USD ou EUR) ou 'SAIR' para encerrar o programa: ");
     string? menuOptionDestination = Console.ReadLine().Trim().ToUpper();
 
     if (menuOptionDestination == "BRL" || menuOptionDestination == "USD" || menuOptionDestination == "EUR")
     {
         Console.WriteLine($"Moeda de destino selecionada: {menuOptionDestination}");
         Console.WriteLine("Pressione a tecla ENTER para continuar.");
-        Console.ReadLine();        
+        Console.ReadLine();
+    }
+    else if (menuOptionDestination == "SAIR")
+    {
+        Console.WriteLine("Encerrando o programa...");
+        Console.WriteLine("Programa encerrado. \n");
+        break;
     }
     else
     {
