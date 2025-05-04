@@ -46,3 +46,16 @@ Console.WriteLine(valueI);
 
 int valueII = Convert.ToInt32(1.5m); // The float value is rounded correctly to 2.
 Console.WriteLine(valueII); 
+
+/* Using TryParse() */
+string value = "102";
+int newResult = 0;
+if (int.TryParse(value, out newResult))
+{
+    Console.WriteLine($"Measurement: {newResult}");
+}
+else 
+{
+    Console.WriteLine("Unable to report the measurement.");
+}
+Console.WriteLine($"Measurement (w/ offset): {50 + newResult}");

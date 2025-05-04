@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("conversor_de_moedas")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("aula009.1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314971b1a1ee6d10d524bcbc37feae470d68b554")]
-[assembly: System.Reflection.AssemblyProductAttribute("conversor_de_moedas")]
-[assembly: System.Reflection.AssemblyTitleAttribute("conversor_de_moedas")]
+[assembly: System.Reflection.AssemblyProductAttribute("aula009.1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("aula009.1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
