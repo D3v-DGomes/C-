@@ -1,5 +1,5 @@
 ﻿/*
-Exercise - Complete a challenge to produce mathematical operations as specific number types.
+Exercise - Complete a challenge to produce mathematical operations as specific number types:
 */
 
 int value = 11;
