@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\bin\Debug\net9.0\project_pettingzoo.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\bin\Debug\net9.0\project_pettingzoo.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\bin\Debug\net9.0\project_pettingzoo.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\bin\Debug\net9.0\project_pettingzoo.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\bin\Debug\net9.0\project_pettingzoo.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\refint\project_pettingzoo.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\project_pettingzoo.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_pettingzoo\obj\Debug\net9.0\ref\project_pettingzoo.dll
