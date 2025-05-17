@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\bin\Debug\net9.0\project_makeChange.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\bin\Debug\net9.0\project_makeChange.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\bin\Debug\net9.0\project_makeChange.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\bin\Debug\net9.0\project_makeChange.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\bin\Debug\net9.0\project_makeChange.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\refint\project_makeChange.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\project_makeChange.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\MicrosoftLearn\project_makeChange\obj\Debug\net9.0\ref\project_makeChange.dll
