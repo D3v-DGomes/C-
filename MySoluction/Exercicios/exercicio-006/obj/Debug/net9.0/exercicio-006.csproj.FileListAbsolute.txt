@@ -1,0 +1,15 @@
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\bin\Debug\net9.0\exercicio-006.exe
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\bin\Debug\net9.0\exercicio-006.deps.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\bin\Debug\net9.0\exercicio-006.runtimeconfig.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\bin\Debug\net9.0\exercicio-006.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\bin\Debug\net9.0\exercicio-006.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.AssemblyInfoInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.AssemblyInfo.cs
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.csproj.CoreCompileInputs.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.sourcelink.json
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\refint\exercicio-006.dll
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.pdb
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\exercicio-006.genruntimeconfig.cache
+C:\Users\devgo\OneDrive\Documentos\GitHub\C#\MySoluction\Exercicios\exercicio-006\obj\Debug\net9.0\ref\exercicio-006.dll
