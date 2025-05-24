@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MySoluction",
+    "\\MySoluction\\ASP.NET Core",
+    "\\MySoluction\\ASP.NET Core\\CadastroContatos",
+    "\\MySoluction\\ASP.NET Core\\CadastroContatos\\CadastroContatos"
   ],
-  "SelectedNode": "\\MySoluction.sln",
+  "SelectedNode": "\\MySoluction\\ASP.NET Core\\CadastroContatos\\CadastroContatos.sln",
   "PreviewInSolutionExplorer": false
 }
