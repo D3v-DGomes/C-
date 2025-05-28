@@ -19,10 +19,43 @@ Marta, 7.85
 Sueli, 9.15
 */
 
+// 1- Crie um método para exibir a lista de alunos com nome e nota, a média aritmética
+// das notas e a quantidade de alunos na lista
 List<Aluno> alunos = FonteDados.GetAlunos();
-
 ExibirAlunos(alunos);
 
+/* 2- Inclua na lista original os alunos: Bia, 7.75 e Mario, 8.95, e exiba novamente a lista de alunos.*/
+Console.Write("\nAdicionando alunos: Bia e Mario");
+Aluno bia = new Aluno() { Nome = "Bia", Nota = 7.75 };
+Aluno mario = new Aluno() { Nome = "Mario", Nota = 8.95 };
+alunos.Add(bia);
+alunos.Add(mario);
+ExibirAlunos(alunos);
+
+/* 3- Localize na lista a aluna Amanda e a seguir remova esta aluna da lista e exiba novamente a lista
+de alunos*/
+Console.WriteLine("\nLocalizando aluna Amanda...");
+Console.Write("Aluna Amanda removida com sucesso.");
+var aluna = alunos.Find(n => n.Nome.Equals("Amanda"));
+alunos.Remove(aluna);
+ExibirAlunos(alunos);
+
+/* 4- Ordene a lista pelo nome do aluno e exiba a lista ordenada por nome e depois por nota */
+Console.Write("\nLista ordenada por nome");
+var listaOrdenadaNome = alunos.OrderBy(n => n.Nome).ToList();
+ExibirAlunos(listaOrdenadaNome);
+
+Console.Write("\nLista ordenada por nota");
+var listaOrdenadaNota = alunos.OrderBy(n => n.Nota).ToList();
+ExibirAlunos(listaOrdenadaNota);
+
+/* 5- Obtenha e exiba no console os alunos com nota maior ou igual a 8 */
+Console.Write("\nAlunos com nota maior que 8");
+var maiorNota = alunos.FindAll(n => n.Nota >= 8);
+ExibirAlunos(maiorNota);
+
+// 1- Crie um método para exibir a lista de alunos com nome e nota, a média aritmética
+// das notas e a quantidade de alunos na lista
 static void ExibirAlunos(List<Aluno> alunos)
 {
     double totalNotas = 0;
@@ -40,17 +73,6 @@ static void ExibirAlunos(List<Aluno> alunos)
 
     Console.WriteLine("\nMédia Aritmética\tQtd de alunos");
     Console.WriteLine($"{mediaAritmetica:N2}\t\t\t{alunos.Count}");
-
-    alunos.AddRange(new Aluno { Nome = "Bia", Nota = 7.75 }, new Aluno { Nome = "Mario", Nota = 0 });
-
-    Console.WriteLine("\nRelação de alunos:");
-    Console.WriteLine("\nNome\tNota");
-
-    foreach (var aluno in alunos)
-    {
-        Console.WriteLine($"{aluno.Nome}\t{aluno.Nota:N2}");
-    }
-
 }
 
 
