@@ -187,8 +187,81 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 // }
 
 
+// MÉTODO COM RETORNO
+
+// using System.Runtime.InteropServices;
+
+// Calculadora calcular = new();
+
+// var somar = calcular.Somar(10, 5);
+// var subtrair = calcular.Subtrair(50, 43);
+// var multiplicar = calcular.Multiplicar(5, 9);
+// var dividir = calcular.Dividir(100, 20);
+
+// Console.WriteLine($"{somar} - {subtrair} - {multiplicar} - {dividir}");
+
+// public class Calculadora
+// {
+//     public int Somar(int a, int b)
+//     {
+//         return a + b;
+//     }
+
+//     public int Subtrair(int a, int b)
+//     {
+//         return a - b;
+//     }
+
+//     public int Multiplicar(int a, int b)
+//     {
+//         return a * b;
+//     }
+
+//     public int Dividir(int a, int b)
+//     {
+//         return a / b;
+//     }
+// }
 
 
 
+// SOBRECARGA DE MÉTODOS (ASSINATURA DE UM MÉTODO)
+
+public class Calculadora
+{
+    // 1- Número de parâmetros diferentes
+    public int Soma(int n1, int n2)
+    {
+        return n1 + n2;
+    }
+
+    public int Soma(int n1, int n2, int n3)
+    {
+        return n1 + n2 + n3;
+    }
+
+    // 2- Tipos diferentes
+    public double Divisao(int n4, int n5)
+    {
+        return n4 / n5;
+    }
+
+    public decimal Divisao(decimal n4, decimal n5)
+    {
+        return n4 / n5;
+    }
+
+    // 3- Ordem dos parâmetros diferentes
+    public void Exibir(int a, string b)
+    {
+        Console.Write($"{a} {b}");
+    }
+
+    public void Exibir(string b, int a)
+    {
+        Console.Write($"{a} {b}");
+    }
+}
+ 
 
 
