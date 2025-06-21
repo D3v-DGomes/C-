@@ -350,37 +350,127 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 
 
 // Paramêtros opcionais:
-using System.ComponentModel.DataAnnotations;
+// using System.ComponentModel.DataAnnotations;
 
-Console.WriteLine("### Parâmetros opcionais ###\n\n");
+// Console.WriteLine("### Parâmetros opcionais ###\n\n");
 
-Mensagem mensagem = new();
-mensagem.EnviarMensagem(remetente: "José Borges", destinatario: "João Estrela");
+// Mensagem mensagem = new();
+// mensagem.EnviarMensagem(remetente: "José Borges", destinatario: "João Estrela");
 
-mensagem.EnviarMensagem(remetente: "Marina Almeida", destinatario: "Amado Souza",
-    assunto: "Reunião de Projeto", mensagem: "Vamos discutir o andamento do projeto na próxima semana.");
+// mensagem.EnviarMensagem(remetente: "Marina Almeida", destinatario: "Amado Souza",
+//     assunto: "Reunião de Projeto", mensagem: "Vamos discutir o andamento do projeto na próxima semana.");
 
-Console.Write("\n\nInforme o remetente(De): ");
-string? remetente = Console.ReadLine() ?? "Remetente Desconhecido";
+// Console.Write("\n\nInforme o remetente(De): ");
+// string? remetente = Console.ReadLine() ?? "Remetente Desconhecido";
 
-Console.Write("Informe o destinatário(Para): ");
-string? destinatario = Console.ReadLine() ?? "Destinatário Desconhecido";
+// Console.Write("Informe o destinatário(Para): ");
+// string? destinatario = Console.ReadLine() ?? "Destinatário Desconhecido";
 
-Console.Write("Informe o assunto: ");
-string? assunto = Console.ReadLine();
+// Console.Write("Informe o assunto: ");
+// string? assunto = Console.ReadLine();
 
-Console.Write("Digite a mensagem: ");
-string? mensagemTexto = Console.ReadLine();
+// Console.Write("Digite a mensagem: ");
+// string? mensagemTexto = Console.ReadLine();
 
-mensagem.EnviarMensagem(remetente, destinatario, assunto, mensagemTexto);
+// mensagem.EnviarMensagem(remetente, destinatario, assunto, mensagemTexto);
 
-public class Mensagem
+// public class Mensagem
+// {
+//     public void EnviarMensagem(string remetente, string destinatario,
+//     string assunto = "Assunto Desconhecido", string mensagem = "Mensagem sem conteúdo")
+//     {
+//         Console.WriteLine($"De: {remetente} - Para: {destinatario}");
+//         Console.WriteLine($"Assunto: {assunto}");
+//         Console.WriteLine($"Mensagem: {mensagem}");
+//     }
+// }
+
+
+// Métodos estáticos:
+// Console.WriteLine("### Métodos estáticos ###\n\n");
+
+// Console.WriteLine($"Soma: {Calculadora.Soma(10, 10)}");
+// Console.WriteLine($"Subtração: {Calculadora.Subtracao(10, 10)}");
+// Console.WriteLine($"Multiplicação: {Calculadora.Multiplicacao(10, 10)}");
+// Console.WriteLine($"Divisão: {Calculadora.Divisao(10, 10)}");
+// Métodos estáticos são chamados diretamente pela classe, sem a necessidade de criar uma instância da classe.
+// public class Calculadora
+// {
+//     public static int Soma(int n1, int n2)
+//     {
+//         return n1 + n2;
+//     }
+//     public static int Subtracao(int n1, int n2)
+//     {
+//         return n1 - n2;
+//     }
+//     public static int Multiplicacao(int n1, int n2)
+//     {
+//         return n1 * n2;
+//     }
+//     public static int Divisao(int n1, int n2)
+//     {
+//         return n1 / n2;
+//     }
+// }
+
+
+// Membros estáticos:
+Console.WriteLine("### Membros estáticos ###\n\n");
+
+// Campos estáticos:
+ContaCorrente conta1 = new();
+conta1.Titular = "Angela";
+conta1.NumeroConta = 032881;
+conta1.TaxaJuros = 2.97f;
+
+ContaCorrente conta2 = new();
+conta2.Titular = "Bárbara";
+conta2.NumeroConta = 033951;
+conta2.TaxaJuros = 3.15f;
+
+Console.WriteLine("## Conta Corrente ## \n");
+Console.WriteLine($"Titular: {conta1.Titular}`- Juros Anual: {conta1.TaxaJurosAnual()}%");
+Console.WriteLine($"Titular: {conta2.Titular}`- Juros Anual: {conta2.TaxaJurosAnual()}%\n\n");
+
+
+ContaPoupanca contaPoupanca1 = new();
+contaPoupanca1.Titular = "Carlos Magno";
+contaPoupanca1.NumeroContaPoupanca = 004592;
+
+ContaPoupanca contaPoupanca2 = new();
+contaPoupanca2.Titular = "Diana Prince";
+contaPoupanca2.NumeroContaPoupanca = 004495;
+
+ContaPoupanca.TaxaJurosPoupanca = 2.04f;
+
+Console.WriteLine("## Conta Poupança ## \n");
+Console.WriteLine($"Titular: {contaPoupanca1.Titular} - Juros Anual: {contaPoupanca1.TaxaJurosPoupancaAnual()}%");
+Console.WriteLine($"Titular: {contaPoupanca2.Titular} - Juros Anual: {contaPoupanca2.TaxaJurosPoupancaAnual()}%");
+// Membros estáticos são compartilhados entre todas as instâncias da classe.
+
+
+public class ContaCorrente
 {
-    public void EnviarMensagem(string remetente, string destinatario,
-    string assunto = "Assunto Desconhecido", string mensagem = "Mensagem sem conteúdo")
+    public string? Titular;
+    public int NumeroConta;
+    public float TaxaJuros;
+
+    public float TaxaJurosAnual()
     {
-        Console.WriteLine($"De: {remetente} - Para: {destinatario}");
-        Console.WriteLine($"Assunto: {assunto}");
-        Console.WriteLine($"Mensagem: {mensagem}");
+        return TaxaJuros * 12;
     }
 }
+
+public class ContaPoupanca
+{
+    public string? Titular;
+    public int NumeroContaPoupanca;
+    public static float TaxaJurosPoupanca;
+
+    public float TaxaJurosPoupancaAnual()
+    {
+        return TaxaJurosPoupanca * 12;
+    }
+}
+
