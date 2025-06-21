@@ -227,41 +227,103 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 
 // SOBRECARGA DE MÉTODOS (ASSINATURA DE UM MÉTODO)
 
-public class Calculadora
+// public class Calculadora
+// {
+//     // 1- Número de parâmetros diferentes
+//     public int Soma(int n1, int n2)
+//     {
+//         return n1 + n2;
+//     }
+
+//     public int Soma(int n1, int n2, int n3)
+//     {
+//         return n1 + n2 + n3;
+//     }
+
+//     // 2- Tipos diferentes
+//     public double Divisao(int n4, int n5)
+//     {
+//         return n4 / n5;
+//     }
+
+//     public decimal Divisao(decimal n4, decimal n5)
+//     {
+//         return n4 / n5;
+//     }
+
+//     // 3- Ordem dos parâmetros diferentes
+//     public void Exibir(int a, string b)
+//     {
+//         Console.Write($"{a} {b}");
+//     }
+
+//     public void Exibir(string b, int a)
+//     {
+//         Console.Write($"{a} {b}");
+//     }
+// }
+
+
+// PASSAGEM DE ARGUMENTOS POR VALOR E REFERÊNCIA
+
+// Passagem por valor:
+// using System.Formats.Asn1;
+
+// int x = 20;
+// Console.WriteLine("Valor do argumento x antes de passar o valor: " + x);
+
+// Calculo calc = new();
+// calc.Dobrar(x);
+
+// Console.WriteLine("Valor do argumento x após passar por valor: " + x);
+
+// Console.ReadKey();
+
+// // Passagem por referência usando a palavra-chave ref:
+// int z = 20;
+// Console.WriteLine("\n\nValor do argumento x antes de passar o valor: " + z);
+
+// CalculoRef calcRef = new();
+// calcRef.DobrarZ(ref z);
+
+// Console.WriteLine("Valor do argumento x após passar por valor: " + z);
+
+
+// public class Calculo
+// {
+//     public void Dobrar(int y)
+//     {
+//         y *= 2;
+//         Console.WriteLine("Valor do parâmetro y no método Dobrar() " + y);
+//     }
+// }
+
+// public class CalculoRef
+// {
+//     public void DobrarZ(ref int y)
+//     {
+//         y *= 2;
+//         Console.WriteLine("Valor do parâmetro y no método Dobrar() " + y);
+//     }
+// }
+
+// Passagem por referência usando a palavra-chave out:
+Console.WriteLine("### Argumentos por referência usando out ###");
+
+Console.WriteLine("\n\nInforme o raio do círculo:");
+double raio = Convert.ToDouble(Console.ReadLine());
+
+Circulo circulo = new();
+double perimetro = circulo.CalculaAreaPerimetro(raio, out double area);
+
+Console.WriteLine("Perímetro do círculo: " + perimetro);
+Console.WriteLine("Área do círculo: " + area);
+public class Circulo
 {
-    // 1- Número de parâmetros diferentes
-    public int Soma(int n1, int n2)
+    public double CalculaAreaPerimetro(double raio, out double area)    // Retornando mais de um valor usando out
     {
-        return n1 + n2;
-    }
-
-    public int Soma(int n1, int n2, int n3)
-    {
-        return n1 + n2 + n3;
-    }
-
-    // 2- Tipos diferentes
-    public double Divisao(int n4, int n5)
-    {
-        return n4 / n5;
-    }
-
-    public decimal Divisao(decimal n4, decimal n5)
-    {
-        return n4 / n5;
-    }
-
-    // 3- Ordem dos parâmetros diferentes
-    public void Exibir(int a, string b)
-    {
-        Console.Write($"{a} {b}");
-    }
-
-    public void Exibir(string b, int a)
-    {
-        Console.Write($"{a} {b}");
+        area = Math.PI * Math.Pow(raio, 2);
+        double perimetro = 2 * Math.PI * raio;
+        return perimetro;
     }
 }
- 
-
-
