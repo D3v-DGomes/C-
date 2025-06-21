@@ -308,22 +308,79 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 // }
 
 // Passagem por referência usando a palavra-chave out:
-Console.WriteLine("### Argumentos por referência usando out ###");
+// Console.WriteLine("### Argumentos por referência usando out ###");
 
-Console.WriteLine("\n\nInforme o raio do círculo:");
-double raio = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("\n\nInforme o raio do círculo:");
+// double raio = Convert.ToDouble(Console.ReadLine());
 
-Circulo circulo = new();
-double perimetro = circulo.CalculaAreaPerimetro(raio, out double area);
+// Circulo circulo = new();
+// double perimetro = circulo.CalculaAreaPerimetro(raio, out double area);
 
-Console.WriteLine("Perímetro do círculo: " + perimetro);
-Console.WriteLine("Área do círculo: " + area);
-public class Circulo
+// Console.WriteLine("Perímetro do círculo: " + perimetro);
+// Console.WriteLine("Área do círculo: " + area);
+// public class Circulo
+// {
+//     public double CalculaAreaPerimetro(double raio, out double area)    // Retornando mais de um valor usando out
+//     {
+//         area = Math.PI * Math.Pow(raio, 2);
+//         double perimetro = 2 * Math.PI * raio;
+//         return perimetro;
+//     }
+// }
+
+
+// Argumentos nomeados:
+// Console.WriteLine("### Argumentos nomeados ###");
+
+// Email email = new();
+// email.EnviarEmail(destinatario: "teste@hotmail.com",
+//                     mensagem: "Olá, este é um teste de envio de e-mail com argumentos nomeados.",
+//                     assunto: "Teste de envio");
+
+// email.EnviarEmail(mensagem: "Teste de ordem dos parâmetros",
+//                     assunto: "Ordem aleatória",
+//                     destinatario: "example@gmail.com");
+// public class Email
+// {
+//     public void EnviarEmail(string destinatario, string assunto, string mensagem)
+//     {
+//         Console.WriteLine($"{destinatario}, {assunto}: {mensagem}");
+//     }
+// }
+
+
+// Paramêtros opcionais:
+using System.ComponentModel.DataAnnotations;
+
+Console.WriteLine("### Parâmetros opcionais ###\n\n");
+
+Mensagem mensagem = new();
+mensagem.EnviarMensagem(remetente: "José Borges", destinatario: "João Estrela");
+
+mensagem.EnviarMensagem(remetente: "Marina Almeida", destinatario: "Amado Souza",
+    assunto: "Reunião de Projeto", mensagem: "Vamos discutir o andamento do projeto na próxima semana.");
+
+Console.Write("\n\nInforme o remetente(De): ");
+string? remetente = Console.ReadLine() ?? "Remetente Desconhecido";
+
+Console.Write("Informe o destinatário(Para): ");
+string? destinatario = Console.ReadLine() ?? "Destinatário Desconhecido";
+
+Console.Write("Informe o assunto: ");
+string? assunto = Console.ReadLine();
+
+Console.Write("Digite a mensagem: ");
+string? mensagemTexto = Console.ReadLine();
+
+mensagem.EnviarMensagem(remetente, destinatario, assunto, mensagemTexto);
+
+public class Mensagem
 {
-    public double CalculaAreaPerimetro(double raio, out double area)    // Retornando mais de um valor usando out
+    public void EnviarMensagem(string remetente, string destinatario,
+    string assunto = "Assunto Desconhecido", string mensagem = "Mensagem sem conteúdo")
     {
-        area = Math.PI * Math.Pow(raio, 2);
-        double perimetro = 2 * Math.PI * raio;
-        return perimetro;
+        Console.WriteLine($"De: {remetente} - Para: {destinatario}");
+        Console.WriteLine($"Assunto: {assunto}");
+        Console.WriteLine($"Mensagem: {mensagem}");
     }
 }
