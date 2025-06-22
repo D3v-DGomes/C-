@@ -416,61 +416,143 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 
 
 // Membros estáticos:
-Console.WriteLine("### Membros estáticos ###\n\n");
+// Console.WriteLine("### Membros estáticos ###\n\n");
 
 // Campos estáticos:
-ContaCorrente conta1 = new();
-conta1.Titular = "Angela";
-conta1.NumeroConta = 032881;
-conta1.TaxaJuros = 2.97f;
+// ContaCorrente conta1 = new();
+// conta1.Titular = "Angela";
+// conta1.NumeroConta = 032881;
+// conta1.TaxaJuros = 2.97f;
 
-ContaCorrente conta2 = new();
-conta2.Titular = "Bárbara";
-conta2.NumeroConta = 033951;
-conta2.TaxaJuros = 3.15f;
+// ContaCorrente conta2 = new();
+// conta2.Titular = "Bárbara";
+// conta2.NumeroConta = 033951;
+// conta2.TaxaJuros = 3.15f;
 
-Console.WriteLine("## Conta Corrente ## \n");
-Console.WriteLine($"Titular: {conta1.Titular}`- Juros Anual: {conta1.TaxaJurosAnual()}%");
-Console.WriteLine($"Titular: {conta2.Titular}`- Juros Anual: {conta2.TaxaJurosAnual()}%\n\n");
-
-
-ContaPoupanca contaPoupanca1 = new();
-contaPoupanca1.Titular = "Carlos Magno";
-contaPoupanca1.NumeroContaPoupanca = 004592;
-
-ContaPoupanca contaPoupanca2 = new();
-contaPoupanca2.Titular = "Diana Prince";
-contaPoupanca2.NumeroContaPoupanca = 004495;
-
-ContaPoupanca.TaxaJurosPoupanca = 2.04f;
-
-Console.WriteLine("## Conta Poupança ## \n");
-Console.WriteLine($"Titular: {contaPoupanca1.Titular} - Juros Anual: {contaPoupanca1.TaxaJurosPoupancaAnual()}%");
-Console.WriteLine($"Titular: {contaPoupanca2.Titular} - Juros Anual: {contaPoupanca2.TaxaJurosPoupancaAnual()}%");
-// Membros estáticos são compartilhados entre todas as instâncias da classe.
+// Console.WriteLine("## Conta Corrente ## \n");
+// Console.WriteLine($"Titular: {conta1.Titular}`- Juros Anual: {conta1.TaxaJurosAnual()}%");
+// Console.WriteLine($"Titular: {conta2.Titular}`- Juros Anual: {conta2.TaxaJurosAnual()}%\n\n");
 
 
-public class ContaCorrente
+// ContaPoupanca contaPoupanca1 = new();
+// contaPoupanca1.Titular = "Carlos Magno";
+// contaPoupanca1.NumeroContaPoupanca = 004592;
+
+// ContaPoupanca contaPoupanca2 = new();
+// contaPoupanca2.Titular = "Diana Prince";
+// contaPoupanca2.NumeroContaPoupanca = 004495;
+
+// ContaPoupanca.TaxaJurosPoupanca = 2.04f;
+
+// Console.WriteLine("## Conta Poupança ## \n");
+// Console.WriteLine($"Titular: {contaPoupanca1.Titular} - Juros Anual: {contaPoupanca1.TaxaJurosPoupancaAnual()}%");
+// Console.WriteLine($"Titular: {contaPoupanca2.Titular} - Juros Anual: {contaPoupanca2.TaxaJurosPoupancaAnual()}%");
+// // Membros estáticos são compartilhados entre todas as instâncias da classe.
+
+
+// public class ContaCorrente
+// {
+//     public string? Titular;
+//     public int NumeroConta;
+//     public float TaxaJuros;
+
+//     public float TaxaJurosAnual()
+//     {
+//         return TaxaJuros * 12;
+//     }
+// }
+
+// public class ContaPoupanca
+// {
+//     public string? Titular;
+//     public int NumeroContaPoupanca;
+//     public static float TaxaJurosPoupanca;
+
+//     public float TaxaJurosPoupancaAnual()
+//     {
+//         return TaxaJurosPoupanca * 12;
+//     }
+// }
+
+
+
+// Construtores estáticos:
+// Console.WriteLine("### Construtores estáticos ###\n\n");
+
+// Pessoa p1 = new("Miguel", 20);
+
+// Console.WriteLine($"{p1.Nome} - {p1.Idade} anos");
+// Console.WriteLine($"Idade mínima: {Pessoa.IdadeMinima}");
+
+// public class Pessoa
+// {
+//     public static int IdadeMinima;
+
+//     public string Nome { get; set; } = string.Empty;
+//     public int Idade { get; set; }
+
+//     public Pessoa(string nome, int idade)
+//     {
+//         Console.WriteLine("\nExecutando o construtor parametrizado");
+//         Nome = nome;
+//         Idade = idade;
+//     }
+
+//     public Pessoa()
+//     { }
+
+//     static Pessoa()
+//     {
+//         Console.WriteLine("\nExecutando o construtor estático");
+//         Console.WriteLine("Inicializando o campo IdadeMinima");
+//         IdadeMinima = 20;
+//     }
+// }
+
+
+// Propriedades:
+Console.WriteLine("## Propriedades ##\n");
+
+Produto produto1 = new();
+produto1.Nome = "Notebook";
+produto1.Preco = 4700.00;
+produto1.EstoqueMinimo = 4;
+
+produto1.ExibirDetalhes();
+
+public class Produto
 {
-    public string? Titular;
-    public int NumeroConta;
-    public float TaxaJuros;
-
-    public float TaxaJurosAnual()
+    private string? _nome;
+    public string? Nome
     {
-        return TaxaJuros * 12;
+        get { return _nome.ToUpper(); }
+        set { _nome = value; }
+    }
+
+    private double _preco;
+    public double Preco
+    {
+        get { return _preco;}
+        set
+        {
+            if (value < 6.00)
+                _preco = 6.00;
+            else
+                _preco = value;
+        }
+    }
+
+    private double _desconto = 0.12;    // Atribuindo valor padrão de desconto
+    public double Desconto { get { return _desconto; } }
+
+    public double PrecoFinal { get {return Preco - (Preco * Desconto); } }
+
+    private int _estoqueMinimo;
+    public int EstoqueMinimo { set { _estoqueMinimo = value; } }
+
+    public void ExibirDetalhes()
+    {
+        Console.WriteLine($"Produto: {Nome} \nPreço: {Preco:C} \nDesconto: {Desconto:P} " +
+                            $"\nPreço final: {PrecoFinal:C} \nEstoque mínimo: {_estoqueMinimo} unidades");
     }
 }
-
-public class ContaPoupanca
-{
-    public string? Titular;
-    public int NumeroContaPoupanca;
-    public static float TaxaJurosPoupanca;
-
-    public float TaxaJurosPoupancaAnual()
-    {
-        return TaxaJurosPoupanca * 12;
-    }
-}
-
