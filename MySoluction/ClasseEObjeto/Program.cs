@@ -511,48 +511,102 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 
 
 // Propriedades:
-Console.WriteLine("## Propriedades ##\n");
+// Console.WriteLine("## Propriedades ##\n");
 
-Produto produto1 = new();
-produto1.Nome = "Notebook";
-produto1.Preco = 4700.00;
-produto1.EstoqueMinimo = 4;
+// Produto produto1 = new();
+// produto1.Nome = "Notebook";
+// produto1.Preco = 4700.00;
+// produto1.EstoqueMinimo = 4;
 
-produto1.ExibirDetalhes();
+// produto1.ExibirDetalhes();
 
-public class Produto
+// public class Produto
+// {
+//     private string? _nome;
+//     public string? Nome
+//     {
+//         get { return _nome.ToUpper(); }
+//         set { _nome = value; }
+//     }
+
+//     private double _preco;
+//     public double Preco
+//     {
+//         get { return _preco;}
+//         set
+//         {
+//             if (value < 6.00)
+//                 _preco = 6.00;
+//             else
+//                 _preco = value;
+//         }
+//     }
+
+//     private double _desconto = 0.12;    // Atribuindo valor padrão de desconto
+//     public double Desconto { get { return _desconto; } }
+
+//     public double PrecoFinal { get {return Preco - (Preco * Desconto); } }
+
+//     private int _estoqueMinimo;
+//     public int EstoqueMinimo { set { _estoqueMinimo = value; } }
+
+//     public void ExibirDetalhes()
+//     {
+//         Console.WriteLine($"Produto: {Nome} \nPreço: {Preco:C} \nDesconto: {Desconto:P} " +
+//                             $"\nPreço final: {PrecoFinal:C} \nEstoque mínimo: {_estoqueMinimo} unidades");
+//     }
+// }
+
+
+// Enum:
+Console.WriteLine("## Enum ##\n");
+
+Console.WriteLine(DiaSemana.Domingo);
+Console.WriteLine(DiaSemana.Terça);
+
+int dia1 = (int)DiaSemana.Domingo;
+int dia2 = (int)DiaSemana.Terça;
+
+Console.WriteLine($"\n{DiaSemana.Domingo} vale: {dia1}");
+Console.WriteLine($"{DiaSemana.Terça} vale: {dia2}");
+
+// Enum é um tipo de dado que define um conjunto de constantes nomeadas, facilitando a leitura
+// e manutenção do código.
+// É usado para representar um conjunto fixo de valores relacionados, como dias da semana, meses do ano, etc.
+Console.WriteLine("Pressione qualquer tecla para continuar...");
+Console.ReadKey();
+
+Console.WriteLine($"\n\n{Categorias.Moda} - {(int)Categorias.Moda}");
+Console.WriteLine($"{Categorias.Automotivo} - {(int)Categorias.Automotivo}");
+Console.WriteLine($"{Categorias.Artes} - {(int)Categorias.Artes}");
+Console.WriteLine($"{Categorias.Livros} - {(int)Categorias.Livros}");
+Console.WriteLine($"{Categorias.Brinquedos} - {(int)Categorias.Brinquedos}");
+Console.WriteLine($"{Categorias.Bebidas} - {(int)Categorias.Bebidas}");
+
+Console.WriteLine("Selecione a categoria teclando o seu valor numérico correspondente:");
+int valorCategoria = Convert.ToInt32(Console.ReadLine());
+
+var categoriaSelecionada = (Categorias)valorCategoria;
+Console.WriteLine($"\nVocê selecionou a categoria: {categoriaSelecionada.ToString()}");
+
+enum DiaSemana
 {
-    private string? _nome;
-    public string? Nome
-    {
-        get { return _nome.ToUpper(); }
-        set { _nome = value; }
-    }
-
-    private double _preco;
-    public double Preco
-    {
-        get { return _preco;}
-        set
-        {
-            if (value < 6.00)
-                _preco = 6.00;
-            else
-                _preco = value;
-        }
-    }
-
-    private double _desconto = 0.12;    // Atribuindo valor padrão de desconto
-    public double Desconto { get { return _desconto; } }
-
-    public double PrecoFinal { get {return Preco - (Preco * Desconto); } }
-
-    private int _estoqueMinimo;
-    public int EstoqueMinimo { set { _estoqueMinimo = value; } }
-
-    public void ExibirDetalhes()
-    {
-        Console.WriteLine($"Produto: {Nome} \nPreço: {Preco:C} \nDesconto: {Desconto:P} " +
-                            $"\nPreço final: {PrecoFinal:C} \nEstoque mínimo: {_estoqueMinimo} unidades");
-    }
+    Segunda,    // Valores começam do zero por padrão
+    Terça,
+    Quarta,
+    Quinta,
+    Sexta,
+    Sábado,
+    Domingo
 }
+
+enum Categorias
+{
+    Moda,
+    Automotivo,
+    Artes,
+    Livros,
+    Brinquedos,
+    Bebidas
+}
+
