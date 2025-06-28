@@ -559,56 +559,56 @@ Corpo do método -> Consiste das instruções definidas entre chaves no corpo do
 
 
 // Enum:
-Console.WriteLine("## Enum ##\n");
+// Console.WriteLine("## Enum ##\n");
 
-Console.WriteLine(DiaSemana.Domingo);
-Console.WriteLine(DiaSemana.Terça);
+// Console.WriteLine(DiaSemana.Domingo);
+// Console.WriteLine(DiaSemana.Terça);
 
-int dia1 = (int)DiaSemana.Domingo;
-int dia2 = (int)DiaSemana.Terça;
+// int dia1 = (int)DiaSemana.Domingo;
+// int dia2 = (int)DiaSemana.Terça;
 
-Console.WriteLine($"\n{DiaSemana.Domingo} vale: {dia1}");
-Console.WriteLine($"{DiaSemana.Terça} vale: {dia2}");
+// Console.WriteLine($"\n{DiaSemana.Domingo} vale: {dia1}");
+// Console.WriteLine($"{DiaSemana.Terça} vale: {dia2}");
 
-// Enum é um tipo de dado que define um conjunto de constantes nomeadas, facilitando a leitura
-// e manutenção do código.
-// É usado para representar um conjunto fixo de valores relacionados, como dias da semana, meses do ano, etc.
-Console.WriteLine("Pressione qualquer tecla para continuar...");
-Console.ReadKey();
+// // Enum é um tipo de dado que define um conjunto de constantes nomeadas, facilitando a leitura
+// // e manutenção do código.
+// // É usado para representar um conjunto fixo de valores relacionados, como dias da semana, meses do ano, etc.
+// Console.WriteLine("Pressione qualquer tecla para continuar...");
+// Console.ReadKey();
 
-Console.WriteLine($"\n\n{Categorias.Moda} - {(int)Categorias.Moda}");
-Console.WriteLine($"{Categorias.Automotivo} - {(int)Categorias.Automotivo}");
-Console.WriteLine($"{Categorias.Artes} - {(int)Categorias.Artes}");
-Console.WriteLine($"{Categorias.Livros} - {(int)Categorias.Livros}");
-Console.WriteLine($"{Categorias.Brinquedos} - {(int)Categorias.Brinquedos}");
-Console.WriteLine($"{Categorias.Bebidas} - {(int)Categorias.Bebidas}");
+// Console.WriteLine($"\n\n{Categorias.Moda} - {(int)Categorias.Moda}");
+// Console.WriteLine($"{Categorias.Automotivo} - {(int)Categorias.Automotivo}");
+// Console.WriteLine($"{Categorias.Artes} - {(int)Categorias.Artes}");
+// Console.WriteLine($"{Categorias.Livros} - {(int)Categorias.Livros}");
+// Console.WriteLine($"{Categorias.Brinquedos} - {(int)Categorias.Brinquedos}");
+// Console.WriteLine($"{Categorias.Bebidas} - {(int)Categorias.Bebidas}");
 
-Console.WriteLine("Selecione a categoria teclando o seu valor numérico correspondente:");
-int valorCategoria = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Selecione a categoria teclando o seu valor numérico correspondente:");
+// int valorCategoria = Convert.ToInt32(Console.ReadLine());
 
-var categoriaSelecionada = (Categorias)valorCategoria;
-Console.WriteLine($"\nVocê selecionou a categoria: {categoriaSelecionada.ToString()}");
+// var categoriaSelecionada = (Categorias)valorCategoria;
+// Console.WriteLine($"\nVocê selecionou a categoria: {categoriaSelecionada.ToString()}");
 
-enum DiaSemana
-{
-    Segunda,    // Valores começam do zero por padrão
-    Terça,
-    Quarta,
-    Quinta,
-    Sexta,
-    Sábado,
-    Domingo
-}
+// enum DiaSemana
+// {
+//     Segunda,    // Valores começam do zero por padrão
+//     Terça,
+//     Quarta,
+//     Quinta,
+//     Sexta,
+//     Sábado,
+//     Domingo
+// }
 
-enum Categorias
-{
-    Moda,
-    Automotivo,
-    Artes,
-    Livros,
-    Brinquedos,
-    Bebidas
-}
+// enum Categorias
+// {
+//     Moda,
+//     Automotivo,
+//     Artes,
+//     Livros,
+//     Brinquedos,
+//     Bebidas
+// }
 
 
 

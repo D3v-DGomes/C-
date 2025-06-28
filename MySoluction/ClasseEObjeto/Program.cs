@@ -1,1 +1,103 @@
-﻿
+﻿// HERANÇA:
+// Console.WriteLine("## Herança ##\n\n");
+
+// Funcionario funcionario = new();
+// funcionario.Nome = "Jonas";
+// funcionario.Email = "jonas@empresa.com";
+// funcionario.Empresa = "Techno Corp";
+// funcionario.Cargo = "Desenvolvedor";
+// funcionario.Salario = 5000.00m;
+
+// Aluno aluno = new();
+// aluno.Nome = "Marta";
+// aluno.Email = "marta231092@edu.com";
+// aluno.Curso = "Engenharia de Software";
+// aluno.Nota = 8;
+
+// public class Pessoa
+// {
+//     public string? Nome { get; set; }
+//     public string? Email { get; set; }
+//     public void Identificar()
+//     {
+//         Console.WriteLine($"{Nome} - {Email}");
+//     }
+// }
+
+// public class Aluno : Pessoa
+// {
+//     public string? Curso { get; set; }
+//     public int Nota { get; set; }
+// }
+
+// public class Funcionario : Pessoa
+// {
+//     public string? Empresa { get; set; }
+//     public string? Cargo { get; set; }
+//     public decimal Salario { get; set; }
+// }
+
+// Comportamentos:
+using System.Reflection.Metadata.Ecma335;
+
+Console.WriteLine("## Herança - Comportamentos ##\n");
+
+public class ClasseDerivada : ClasseBase
+{
+    // Campos:
+    public void VerificarCampos()
+    {
+        Console.WriteLine("Acesso ao campo private: private_var usando uma propriedade GET");
+        int soma = public_var + protected_var + internal_var + Private_var;
+        Console.WriteLine($"Soma dos campos: {soma}");
+    }
+
+    // Membros:
+    public void VerificarAcesso()
+    {
+        Public_Membro(); // Acesso permitido
+        Protected_Membro(); // Acesso permitido
+        Internal_Membro(); // Acesso permitido
+        ProtectedInternal_Membro(); // Acesso permitido
+        // Private_Membro(); // Acesso negado - não é possível acessar membros privados da classe base
+    }
+}
+
+
+public class ClasseBase
+{
+    // Campos:
+    public int public_var = 1;
+    protected int protected_var = 2;
+    internal int internal_var = 3;
+    private int private_var = 4;
+
+    // Propriedade:
+    public int Private_var
+    {
+        get { return private_var; }
+        set {private_var = value;}
+    }
+
+    // Membros:
+    public void Public_Membro()
+    {
+        Console.WriteLine("ClasseBase - Método Public");
+    }
+    protected void Protected_Membro()
+    {
+        Console.WriteLine("ClasseBase - Método Protected");
+    }
+    internal void Internal_Membro()
+    {
+        Console.WriteLine("ClasseBase - Método Internal");
+    }
+    protected internal void ProtectedInternal_Membro()
+    {
+        Console.WriteLine("ClasseBase - Método protected internal");
+    }
+    private void Private_Membro()
+    {
+        Console.WriteLine("ClasseBase - Método Private");
+    }
+}
