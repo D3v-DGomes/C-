@@ -38,66 +38,98 @@
 // }
 
 // Comportamentos:
-using System.Reflection.Metadata.Ecma335;
+// using System.Reflection.Metadata.Ecma335;
 
-Console.WriteLine("## Herança - Comportamentos ##\n");
+// Console.WriteLine("## Herança - Comportamentos ##\n");
 
-public class ClasseDerivada : ClasseBase
+// public class ClasseDerivada : ClasseBase
+// {
+//     // Campos:
+//     public void VerificarCampos()
+//     {
+//         Console.WriteLine("Acesso ao campo private: private_var usando uma propriedade GET");
+//         int soma = public_var + protected_var + internal_var + Private_var;
+//         Console.WriteLine($"Soma dos campos: {soma}");
+//     }
+
+//     // Membros:
+//     public void VerificarAcesso()
+//     {
+//         Public_Membro(); // Acesso permitido
+//         Protected_Membro(); // Acesso permitido
+//         Internal_Membro(); // Acesso permitido
+//         ProtectedInternal_Membro(); // Acesso permitido
+//         // Private_Membro(); // Acesso negado - não é possível acessar membros privados da classe base
+//     }
+// }
+
+
+// public class ClasseBase
+// {
+//     // Campos:
+//     public int public_var = 1;
+//     protected int protected_var = 2;
+//     internal int internal_var = 3;
+//     private int private_var = 4;
+
+//     // Propriedade:
+//     public int Private_var
+//     {
+//         get { return private_var; }
+//         set {private_var = value;}
+//     }
+
+//     // Membros:
+//     public void Public_Membro()
+//     {
+//         Console.WriteLine("ClasseBase - Método Public");
+//     }
+//     protected void Protected_Membro()
+//     {
+//         Console.WriteLine("ClasseBase - Método Protected");
+//     }
+//     internal void Internal_Membro()
+//     {
+//         Console.WriteLine("ClasseBase - Método Internal");
+//     }
+//     protected internal void ProtectedInternal_Membro()
+//     {
+//         Console.WriteLine("ClasseBase - Método protected internal");
+//     }
+//     private void Private_Membro()
+//     {
+//         Console.WriteLine("ClasseBase - Método Private");
+//     }
+// }
+
+
+// Palavra-chave "base":
+Console.WriteLine("## Herança - Palavra-chave base ##\n");
+
+Aluno aluno1 = new(); // Chama o construtor da classe base
+Aluno aluno2 = new("João"); // Chama o Construtor da classe base com parâmetro
+class Pessoa
 {
-    // Campos:
-    public void VerificarCampos()
+    public Pessoa()
     {
-        Console.WriteLine("Acesso ao campo private: private_var usando uma propriedade GET");
-        int soma = public_var + protected_var + internal_var + Private_var;
-        Console.WriteLine($"Soma dos campos: {soma}");
+        Console.WriteLine("Construtor da Classe Base");
     }
 
-    // Membros:
-    public void VerificarAcesso()
+    public Pessoa(string nome)
     {
-        Public_Membro(); // Acesso permitido
-        Protected_Membro(); // Acesso permitido
-        Internal_Membro(); // Acesso permitido
-        ProtectedInternal_Membro(); // Acesso permitido
-        // Private_Membro(); // Acesso negado - não é possível acessar membros privados da classe base
+        Console.WriteLine("Construtor da Classe Base com parâmetro.");
     }
 }
 
-
-public class ClasseBase
+class Aluno : Pessoa
 {
-    // Campos:
-    public int public_var = 1;
-    protected int protected_var = 2;
-    internal int internal_var = 3;
-    private int private_var = 4;
-
-    // Propriedade:
-    public int Private_var
+    public Aluno() : base() // Chama o construtor da classe base
     {
-        get { return private_var; }
-        set {private_var = value;}
+        Console.WriteLine("Construtor da Classe Derivada");
     }
 
-    // Membros:
-    public void Public_Membro()
+    public Aluno(string nome) : base(nome)    // Chama o Construtor da classe base
     {
-        Console.WriteLine("ClasseBase - Método Public");
-    }
-    protected void Protected_Membro()
-    {
-        Console.WriteLine("ClasseBase - Método Protected");
-    }
-    internal void Internal_Membro()
-    {
-        Console.WriteLine("ClasseBase - Método Internal");
-    }
-    protected internal void ProtectedInternal_Membro()
-    {
-        Console.WriteLine("ClasseBase - Método protected internal");
-    }
-    private void Private_Membro()
-    {
-        Console.WriteLine("ClasseBase - Método Private");
+        Console.WriteLine("Construtor da Classe Derivada com parâmetro.");
     }
 }
