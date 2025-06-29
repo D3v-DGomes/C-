@@ -135,12 +135,34 @@
 // }
 
 // Palavra-chave "new":
-Console.WriteLine("## Herança - Sobrescrita de Membros (Palavra-chave new) ##\n");
+// Console.WriteLine("## Herança - Sobrescrita de Membros (Palavra-chave new) ##\n");
 
-ClasseDerivada classeDerivada = new();
-classeDerivada.ExibirMensagem(); // Chama o método da classe derivada
+// ClasseDerivada classeDerivada = new();
+// classeDerivada.ExibirMensagem(); // Chama o método da classe derivada
 
-class ClasseBase
+// class ClasseBase
+// {
+//     public virtual void ExibirMensagem()
+//     {
+//         Console.WriteLine("Mensagem da Classe Base");
+//     }
+// }
+
+// class ClasseDerivada : ClasseBase
+// {
+//     public new void ExibirMensagem()    // Sobrescreve o método da classe base por causa da palavra-chave "new"
+//     {
+//         Console.WriteLine("Mensagem da Classe Derivada");
+//     }
+// }
+
+// Palavra-chave "override":
+Console.WriteLine("## Herança - Sobrescrita de Membros (Palavra-chave override) ##\n");
+
+ClasseDerivadaOverride classeDerivadaOverride = new();
+classeDerivadaOverride.ExibirMensagem(); // Chama o método da classe derivada
+
+class ClasseBaseOverride
 {
     public virtual void ExibirMensagem()
     {
@@ -148,9 +170,9 @@ class ClasseBase
     }
 }
 
-class ClasseDerivada : ClasseBase
+class ClasseDerivadaOverride : ClasseBaseOverride
 {
-    public new void ExibirMensagem()    // Sobrescreve o método da classe base por causa da palavra-chave "new"
+    public override void ExibirMensagem() // Sobrescreve o método da classe base por causa da palavra-chave "override"
     {
         Console.WriteLine("Mensagem da Classe Derivada");
     }
