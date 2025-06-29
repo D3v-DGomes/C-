@@ -104,32 +104,54 @@
 
 
 // Palavra-chave "base":
-Console.WriteLine("## Herança - Palavra-chave base ##\n");
+// Console.WriteLine("## Herança - Construtores (Palavra-chave base) ##\n");
 
-Aluno aluno1 = new(); // Chama o construtor da classe base
-Aluno aluno2 = new("João"); // Chama o Construtor da classe base com parâmetro
-class Pessoa
+// Aluno aluno1 = new(); // Chama o construtor da classe base
+// Aluno aluno2 = new("João"); // Chama o Construtor da classe base com parâmetro
+// class Pessoa
+// {
+//     public Pessoa()
+//     {
+//         Console.WriteLine("Construtor da Classe Base");
+//     }
+
+//     public Pessoa(string nome)
+//     {
+//         Console.WriteLine("Construtor da Classe Base com parâmetro.");
+//     }
+// }
+
+// class Aluno : Pessoa
+// {
+//     public Aluno() : base() // Chama o construtor da classe base
+//     {
+//         Console.WriteLine("Construtor da Classe Derivada");
+//     }
+
+//     public Aluno(string nome) : base(nome)    // Chama o Construtor da classe base
+//     {
+//         Console.WriteLine("Construtor da Classe Derivada com parâmetro.");
+//     }
+// }
+
+// Palavra-chave "new":
+Console.WriteLine("## Herança - Sobrescrita de Membros (Palavra-chave new) ##\n");
+
+ClasseDerivada classeDerivada = new();
+classeDerivada.ExibirMensagem(); // Chama o método da classe derivada
+
+class ClasseBase
 {
-    public Pessoa()
+    public virtual void ExibirMensagem()
     {
-        Console.WriteLine("Construtor da Classe Base");
-    }
-
-    public Pessoa(string nome)
-    {
-        Console.WriteLine("Construtor da Classe Base com parâmetro.");
+        Console.WriteLine("Mensagem da Classe Base");
     }
 }
 
-class Aluno : Pessoa
+class ClasseDerivada : ClasseBase
 {
-    public Aluno() : base() // Chama o construtor da classe base
+    public new void ExibirMensagem()    // Sobrescreve o método da classe base por causa da palavra-chave "new"
     {
-        Console.WriteLine("Construtor da Classe Derivada");
-    }
-
-    public Aluno(string nome) : base(nome)    // Chama o Construtor da classe base
-    {
-        Console.WriteLine("Construtor da Classe Derivada com parâmetro.");
+        Console.WriteLine("Mensagem da Classe Derivada");
     }
 }
